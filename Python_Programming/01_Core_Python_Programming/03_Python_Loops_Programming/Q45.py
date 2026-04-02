@@ -1,0 +1,8 @@
+""" Print numbers skipping multiples of 3.
+"""
+
+for i in range (0, 101):
+	if i % 3 == 0:
+		continue
+	print(i)
+
