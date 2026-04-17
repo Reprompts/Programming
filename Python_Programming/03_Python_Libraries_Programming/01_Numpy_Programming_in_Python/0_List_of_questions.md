@@ -42,4 +42,137 @@ Perform element-wise multiplication and print the result.
 
 ---
 
+### 11.
+
+Create the following arrays:
+
+* A scalar (0D) with value `100`
+* A 1D array `[1, 2, 3]`
+* A 2D array `[[1,2],[3,4]]`
+
+Print the **number of dimensions (`ndim`)** for each.
+
+---
+
+### 12.
+
+Create a 2D NumPy array:
+
+```
+[[10, 20, 30],
+ [40, 50, 60]]
+```
+
+* Print its **shape**
+* Print its **total size**
+* Verify that size = rows × columns
+
+---
+
+### 13.
+
+Create an array using `np.arange()` from **5 to 15**
+
+* Print the array
+* Print its **data type**
+* Convert it to `float` and print again
+
+---
+
+### 14.
+
+Create a NumPy array using `np.linspace()` from **0 to 5** with **6 elements**
+
+* Print the array
+* Print its **shape and ndim**
+
+---
+
+### 15.
+
+Create a **3×3 matrix of zeros**
+Then:
+
+* Convert it into a matrix of ones
+* Print both arrays
+
+---
+
+### 16.
+
+Generate a **2×2 random array** using NumPy
+
+* Print the array
+* Print its **dtype, itemsize, and total memory (nbytes)**
+
+---
+
+### 17.
+
+Create an array:
+
+```
+[1, 2, 3, 4]
+```
+
+* Print:
+
+  * `itemsize`
+  * `nbytes`
+* Manually verify:
+
+  ```
+  nbytes = itemsize × number of elements
+  ```
+
+---
+
+### 18.
+
+Create an array with mixed values:
+
+```
+[1, 2.5, 3]
+```
+
+* Print the array
+* Print its **dtype**
+* Explain why NumPy chose that dtype
+
+---
+
+### 19.
+
+Create a 3D array:
+
+```
+[
+ [[1,2],[3,4]],
+ [[5,6],[7,8]]
+]
+```
+
+* Print:
+
+  * `ndim`
+  * `shape`
+  * `size`
+
+---
+
+### 20.
+
+Create any 2D NumPy array and perform **complete inspection**:
+Print:
+
+* Array itself
+* `ndim`
+* `shape`
+* `size`
+* `dtype`
+* `itemsize`
+* `nbytes`
+* `flags`
+
+---
 
