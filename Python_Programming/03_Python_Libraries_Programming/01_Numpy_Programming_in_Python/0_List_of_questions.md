@@ -1,15 +1,45 @@
-# Conceptual Questions
+## Practical NumPy Questions (Part 1)
 
-1. What is NumPy and why is it important in Python?
-2. What is an ndarray and how is it different from a Python list?
-3. Explain vectorization with an example.
-4. Why are NumPy arrays faster than Python lists?
-5. What is broadcasting in NumPy?
+1. Create a NumPy array with values `[10, 20, 30, 40, 50]`. Print the array and its data type.
 
-# Syntax-Based Questions
+2. Create two NumPy arrays `[1,2,3]` and `[4,5,6]`. Perform element-wise addition and print the result.
 
-6. Create a NumPy array containing numbers from 1 to 5 and print its type.
-7. Write a program to add two NumPy arrays without using loops.
-8. Create a 2D NumPy array (matrix) and print it.
-9. Write code to calculate the sum and mean of a NumPy array.
-10. Write a program to multiply all elements of a NumPy array by 3.
+3. Create a NumPy array from 1 to 10 using a NumPy function (not a Python list). Print the array.
+
+4. Multiply all elements of a NumPy array `[2,4,6,8]` by 5 and print the output.
+
+5. Create a 2D NumPy array:
+
+   ```
+   [[1,2,3],
+    [4,5,6]]
+   ```
+
+   Print the array and its shape.
+
+6. Create a NumPy array `[5,10,15,20]` and calculate:
+
+   * Sum
+   * Mean
+
+7. Create a NumPy array `[1,2,3,4]` and add 10 to each element using broadcasting.
+
+8. Create a NumPy array of size 5 with all elements as 0, then change it to all 1s.
+
+9. Create a NumPy array `[1,2,3,4,5]` and compute:
+
+   * Square of each element
+   * Square root of each element
+
+10. Create two arrays:
+
+```
+a = [1,2,3]
+b = [10,20,30]
+```
+
+Perform element-wise multiplication and print the result.
+
+---
+
+
