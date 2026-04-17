@@ -1,4 +1,4 @@
-## Practical NumPy Questions (Part 1)
+## Practical NumPy Questions
 
 1. Create a NumPy array with values `[10, 20, 30, 40, 50]`. Print the array and its data type.
 
