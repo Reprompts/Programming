@@ -366,3 +366,110 @@ For both:
 
 ---
 
+36.
+
+Create a 1D NumPy array:
+
+[10, 20, 30, 40, 50]
+
+Access and print:
+First element
+Third element
+Last element (using positive index)
+
+37.
+
+Using the same array:
+
+[10, 20, 30, 40, 50]
+
+Access elements using negative indexing:
+Last element
+Second last element
+Compare with positive indexing
+
+38.
+
+Create a 1D array:
+
+[5, 10, 15, 20]
+
+Modify the second element to 100
+Print the updated array
+
+39.
+
+Create a 1D array:
+
+[2, 4, 6, 8, 10]
+
+Access two elements using indexing
+Perform a mathematical operation (addition or multiplication) between them
+Print the result
+
+40.
+
+Create a 2D array:
+
+[[10, 20, 30],
+ [40, 50, 60],
+ [70, 80, 90]]
+
+Access and print:
+Element at row 0, column 1
+Element at row 2, column 2
+Element at row 1, column 0
+
+41.
+
+Using the same 2D array:
+
+Print the entire second row
+Print the entire first column
+
+42.
+
+Create a 3D NumPy array:
+
+[
+ [[1,2,3],[4,5,6]],
+ [[7,8,9],[10,11,12]]
+]
+
+Access and print:
+Element at [0,1,2]
+Element at [1,0,1]
+
+43.
+
+Create a 2D array:
+
+[[1,2,3],
+ [4,5,6]]
+
+Use negative indexing to access:
+Last element
+First row, last column
+
+44.
+
+Create a 1D array:
+
+[10, 20, 30, 40, 50]
+
+Select elements at indices [0, 2, 4] using:
+Manual indexing
+List of indices (advanced indexing)
+Print both results
+
+45.
+
+Create a 2D array:
+
+[[1,2,3],
+ [4,5,6],
+ [7,8,9]]
+
+Use advanced indexing to extract:
+Elements (0,1) and (2,2)
+Print the result
