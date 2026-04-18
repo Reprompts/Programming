@@ -174,5 +174,195 @@ Print:
 * `nbytes`
 * `flags`
 
+
+21.
+
+Create an array using np.empty() of size 5
+
+Print the array
+Observe the values
+Then assign values [1,2,3,4,5] manually and print again
+
+22.
+
+Create a 2×3 array filled with the value 7 using np.full()
+
+Print the array
+Verify all values are identical
+
+23.
+
+Use np.logspace() to generate 4 values from 10¹ to 10⁴
+
+Print the array
+Explain how the values are generated
+
+24.
+
+Create:
+
+A 4×4 identity matrix using np.identity()
+A 3×5 matrix using np.eye()
+
+Print both and compare their structures
+
+25.
+
+Generate random arrays using NumPy:
+
+A 2×2 array using np.random.rand()
+A 2×2 array using np.random.randint(1,10)
+Set a random seed and regenerate one array
+
+Print all outputs and observe differences
+
+
+---
+
+
+### 26.
+
+Create a NumPy array:
+
+```
+[1, 2, 3, 4]
+```
+
+* Print the array
+* Print its **dtype**
+* Explain what the dtype represents
+
+---
+
+### 27.
+
+Create two arrays:
+
+* One with `dtype=np.int8`
+* One with `dtype=np.int64`
+
+For both arrays:
+
+* Print `itemsize`
+* Compare memory usage
+
+---
+
+### 28.
+
+Create a NumPy array:
+
+```
+[10, 20, 30]
+```
+
+* Convert it to `float32` using `dtype` while creation
+* Print the array and dtype
+* Print `itemsize`
+
+---
+
+### 29.
+
+Create a float array:
+
+```
+[1.5, 2.7, 3.9]
+```
+
+* Convert it to integer using `.astype()`
+* Print the result
+* Observe what happens to decimal values
+
+---
+
+### 30.
+
+Create an array:
+
+```
+[0, 1, 2, 0, 5]
+```
+
+* Convert it to boolean using `.astype(bool)`
+* Print the result
+* Explain how NumPy converts values to boolean
+
+---
+
+### 31.
+
+Create a NumPy array:
+
+```
+[10, 20, 30, 40]
+```
+
+* Create a boolean mask using condition `> 25`
+* Use the mask to filter elements
+* Print both mask and filtered result
+
+---
+
+### 32.
+
+Create a complex number array:
+
+```
+[1+2j, 3+4j, 5+6j]
+```
+
+* Print the array
+* Print its dtype
+* Extract and print:
+
+  * Real part
+  * Imaginary part
+
+---
+
+### 33.
+
+Create an array with mixed values:
+
+```
+[1, "hello", 3.5]
+```
+
+* Force `dtype=object`
+* Print the array and dtype
+* Try performing a mathematical operation (like `+1`) and observe behavior
+
+---
+
+### 34.
+
+Create an integer array:
+
+```
+[1, 2, 3, 4]
+```
+
+Convert it step-by-step:
+
+* To float
+* To string
+* Print dtype after each conversion
+
+---
+
+### 35.
+
+Create two arrays:
+
+* One with `float32`
+* One with `float64`
+
+For both:
+
+* Print `dtype`
+* Print `itemsize`
+* Explain which one uses more memory and why
+
 ---
 
