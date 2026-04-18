@@ -650,4 +650,145 @@ Then:
 
 ---
 
+---
+
+## 51.
+
+Create a NumPy array:
+
+```
+[10, 20, 30, 40, 50]
+```
+
+* Create a boolean array using condition `> 25`
+* Print:
+
+  * Original array
+  * Boolean mask
+
+---
+
+## 52.
+
+Using the same array:
+
+```
+[10, 20, 30, 40, 50]
+```
+
+* Filter and print elements **greater than 25** using boolean indexing
+
+---
+
+## 53.
+
+Create a NumPy array:
+
+```
+[1, 2, 3, 4, 5, 6]
+```
+
+* Extract all **even numbers** using a condition
+* Print the result
+
+---
+
+## 54.
+
+Create a NumPy array:
+
+```
+[10, 55, 32, 70, 90, 25]
+```
+
+Extract elements:
+
+* Greater than **50**
+* Less than or equal to **30**
+
+---
+
+## 55.
+
+Create a 2D NumPy array:
+
+```
+[[10,20,30],
+ [40,50,60],
+ [70,80,90]]
+```
+
+* Extract all elements **greater than 50**
+* Print the result
+
+---
+
+## 56.
+
+Create a NumPy array:
+
+```
+[10, 20, 30, 40, 50, 60]
+```
+
+* Extract values:
+
+  * Greater than **20** AND less than **50**
+* Use bitwise operator `&`
+
+---
+
+## 57.
+
+Using the same array:
+
+* Extract values:
+
+  * Less than **20** OR greater than **50**
+* Use bitwise operator `|`
+
+---
+
+## 58.
+
+Using the same array:
+
+* Extract values that are **NOT greater than 30**
+* Use operator `~`
+
+---
+
+## 59.
+
+Create a NumPy array:
+
+```
+[10, 20, 30, 40, 50]
+```
+
+Use NumPy logical functions:
+
+* `np.logical_and()`
+* `np.logical_or()`
+* `np.logical_not()`
+
+Apply conditions and print results
+
+---
+
+## 60.
+
+Create a NumPy array:
+
+```
+[-3, 5, -1, 7, -8]
+```
+
+* Replace all **negative values with 0** using boolean indexing
+* Print the updated array
+
+---
+
+
+
 
