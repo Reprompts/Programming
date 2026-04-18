@@ -566,3 +566,88 @@ Use advanced indexing to extract:
 
 ---
 
+---
+
+## 46.
+
+Create a 1D NumPy array:
+
+```
+[10, 20, 30, 40, 50, 60]
+```
+
+Extract:
+
+* Elements from index **1 to 4**
+* First **3 elements**
+* Elements from index **3 to end**
+
+---
+
+## 47.
+
+Create a 2D array:
+
+```
+[[10,20,30],
+ [40,50,60],
+ [70,80,90]]
+```
+
+Extract:
+
+* First **two rows**
+* Rows from index **1 to end**
+
+---
+
+## 48.
+
+Using the same 2D array:
+
+Extract:
+
+* Second column
+* First **two columns**
+* Last column using **negative indexing**
+
+---
+
+## 49.
+
+Create a 1D array:
+
+```
+[10, 20, 30, 40, 50, 60]
+```
+
+Extract using slicing:
+
+* Every **second element**
+* Elements from index **1 to 5** with step **2**
+* Reverse the array using slicing
+
+---
+
+## 50.
+
+Create a NumPy array:
+
+```
+[1, 2, 3, 4, 5]
+```
+
+Perform:
+
+* Create a slice from index **1 to 4**
+* Modify the **first element of the slice**
+* Print original array and observe changes
+
+Then:
+
+* Repeat using `.copy()`
+* Verify that original array **does NOT change**
+
+---
+
+
