@@ -790,5 +790,57 @@ Create a NumPy array:
 ---
 
 
+## 61.
+Create a 1D NumPy array:
+[10, 20, 30, 40]
+
+- Iterate through the array using a loop  
+- Print each element one by one  
+
+---
+
+## 62.
+Create a 2D NumPy array:
+[[10,20,30],
+ [40,50,60],
+ [70,80,90]]
+
+- Iterate through the array row-wise  
+- Then use a nested loop to print each element individually  
+
+---
+
+## 63.
+Using the same 2D array:
+- Iterate **column-wise** using transpose (`.T`)  
+- Print each column  
+
+---
+
+## 64.
+Create a 2D array:
+[[1,2],
+ [3,4]]
+
+- Use `np.nditer()` to iterate through all elements  
+- Modify each element by multiplying it by 2 using `op_flags=['readwrite']`  
+- Print the updated array  
+
+---
+
+## 65.
+Create a 2D array:
+[[10,20],
+ [30,40]]
+
+- Use `np.ndenumerate()` to:
+  - Print index and value for each element  
+
+Then:
+- Compare this with normal iteration and explain when `ndenumerate()` is useful  
+
+---
+
+
 
 
