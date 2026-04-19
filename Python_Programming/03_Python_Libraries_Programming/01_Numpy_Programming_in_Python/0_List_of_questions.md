@@ -1172,3 +1172,62 @@ b) Show the resulting shapes in both cases
 c) Create an array with shape (1,1,3) and use `np.squeeze()`  
 d) Explain how `squeeze()` removes dimensions of size 1  
 
+### 96.
+Create two 1D NumPy arrays:
+[1, 2, 3] and [4, 5, 6]
+
+a) Concatenate them using `np.concatenate()`  
+b) Explain what happens when no axis is specified  
+c) Compare the result with `np.vstack()`  
+
+---
+
+### 97.
+Given two 2D arrays:
+[[1, 2],
+ [3, 4]]
+
+and
+
+[[5, 6],
+ [7, 8]]
+
+a) Concatenate them vertically using `axis=0`  
+b) Concatenate them horizontally using `axis=1`  
+c) Explain how shape compatibility affects concatenation  
+
+---
+
+### 98.
+Create two arrays:
+a = [1,2,3]  
+b = [4,5,6]
+
+a) Stack them using `np.vstack()`  
+b) Stack them using `np.hstack()`  
+c) Use `np.column_stack()` and explain how it differs from `hstack()`  
+d) Compare `row_stack()` with `vstack()`  
+
+---
+
+### 99.
+Given the array:
+[1, 2, 3, 4, 5, 6]
+
+a) Split the array into 3 equal parts using `np.split()`  
+b) Split the array at indices [2,4]  
+c) Explain the difference between equal splitting and index-based splitting  
+
+---
+
+### 100.
+Given a 2D array:
+[[1, 2, 3, 4],
+ [5, 6, 7, 8]]
+
+a) Split the array vertically using `np.vsplit()`  
+b) Split the array horizontally using `np.hsplit()`  
+c) Explain the difference between row-wise and column-wise splitting  
+d) Give a real-world example where splitting arrays is useful  
+
+
