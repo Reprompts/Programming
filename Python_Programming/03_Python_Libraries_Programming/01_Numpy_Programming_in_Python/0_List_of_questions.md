@@ -905,3 +905,105 @@ data = [[10,20,30],
 
 ---
 
+## 71.
+Create a NumPy array:
+[1, 2, 3, 4]
+
+- Use `np.square()` to compute square of each element  
+- Also compute square using vectorization (`arr * arr`)  
+- Print both results  
+
+---
+
+## 72.
+Create a NumPy array:
+[1, 4, 9, 16]
+
+- Apply `np.sqrt()` to find square roots  
+- Print the result  
+
+---
+
+## 73.
+Create a NumPy array:
+[-5, -3, 2, 4]
+
+- Apply `np.abs()` to get absolute values  
+- Print the result  
+
+---
+
+## 74.
+Create an array of angles in degrees:
+[0, 30, 60, 90]
+
+- Convert them to radians using `np.radians()`  
+- Apply `np.sin()`  
+- Print the result  
+
+---
+
+## 75.
+Using the same angles:
+- Apply `np.cos()`  
+- Print the result  
+
+---
+
+## 76.
+Create a NumPy array:
+[1, 2, 3]
+
+- Apply `np.exp()`  
+- Print the result  
+
+---
+
+## 77.
+Create a NumPy array:
+[1, 10, 100]
+
+- Apply:
+  - `np.log()`  
+  - `np.log10()`  
+  - `np.log2()`  
+- Print all results  
+
+---
+
+## 78.
+Create a NumPy array:
+[10, 20, 30]
+
+- Apply comparison functions:
+  - `np.greater(arr, 15)`  
+  - `np.less(arr, 25)`  
+- Print the boolean results  
+
+---
+
+## 79.
+Create two boolean arrays:
+a = [True, False, True]  
+b = [True, True, False]
+
+- Apply:
+  - `np.logical_and(a, b)`  
+  - `np.logical_or(a, b)`  
+  - `np.logical_not(a)`  
+- Print all results  
+
+---
+
+## 80.
+Create a custom function:
+Convert Celsius to Fahrenheit:
+F = (C * 9/5) + 32
+
+- Use `np.vectorize()` to apply it on:
+  [0, 20, 30]  
+- Print the result  
+
+---
+
+
