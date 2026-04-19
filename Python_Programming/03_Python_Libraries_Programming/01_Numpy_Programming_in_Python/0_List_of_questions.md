@@ -1172,7 +1172,7 @@ b) Show the resulting shapes in both cases
 c) Create an array with shape (1,1,3) and use `np.squeeze()`  
 d) Explain how `squeeze()` removes dimensions of size 1  
 
-### 96.
+## 96.
 Create two 1D NumPy arrays:
 [1, 2, 3] and [4, 5, 6]
 
@@ -1182,7 +1182,7 @@ c) Compare the result with `np.vstack()`
 
 ---
 
-### 97.
+## 97.
 Given two 2D arrays:
 [[1, 2],
  [3, 4]]
@@ -1198,7 +1198,7 @@ c) Explain how shape compatibility affects concatenation
 
 ---
 
-### 98.
+## 98.
 Create two arrays:
 a = [1,2,3]  
 b = [4,5,6]
@@ -1210,7 +1210,7 @@ d) Compare `row_stack()` with `vstack()`
 
 ---
 
-### 99.
+## 99.
 Given the array:
 [1, 2, 3, 4, 5, 6]
 
@@ -1220,7 +1220,7 @@ c) Explain the difference between equal splitting and index-based splitting
 
 ---
 
-### 100.
+## 100.
 Given a 2D array:
 [[1, 2, 3, 4],
  [5, 6, 7, 8]]
@@ -1230,4 +1230,56 @@ b) Split the array horizontally using `np.hsplit()`
 c) Explain the difference between row-wise and column-wise splitting  
 d) Give a real-world example where splitting arrays is useful  
 
+
+## 101.
+Create a NumPy array:
+[5, 2, 8, 1, 3]
+
+a) Sort the array using `np.sort()`  
+b) Verify that the original array remains unchanged  
+c) Sort the same array using `array.sort()` and observe the difference  
+d) Explain the difference between copy-based sorting and in-place sorting  
+
+---
+
+## 102.
+Given a 2D array:
+[[3, 1, 2],
+ [6, 4, 5]]
+
+a) Sort the array row-wise using `axis=1`  
+b) Sort the array column-wise using `axis=0`  
+c) Explain how sorting along different axes affects the result  
+
+---
+
+## 103.
+Create a NumPy array:
+[50, 10, 30, 20]
+
+a) Find the indices that would sort the array using `np.argsort()`  
+b) Use these indices to sort another array:
+names = ["A", "B", "C", "D"]  
+c) Explain how `argsort()` is useful in ranking problems  
+
+---
+
+## 104.
+Given the array:
+[1, 2, 2, 3, 3, 3, 4, 5]
+
+a) Find unique values using `np.unique()`  
+b) Find unique values along with their counts  
+c) Explain how this can be used to compute frequency of elements  
+
+---
+
+## 105.
+Given the sorted array:
+[10, 20, 30, 40]
+
+a) Find the insertion index of 25 using `np.searchsorted()`  
+b) Find insertion indices for multiple values [5, 15, 35]  
+c) Use `np.where()` to find indices where values are greater than 25  
+d) Use `np.nonzero()` on [0,1,0,2,3,0] and explain the result  
 
