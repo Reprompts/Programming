@@ -1066,3 +1066,55 @@ Then:
 - Print the result  
 
 ---
+
+## 86.
+Create a NumPy array:
+[10, 20, 30, 40, 50]
+
+a) Find the total sum of all elements  
+b) Compute the sum along axis=0 after reshaping it into a 2×5 matrix (if possible)
+
+---
+
+## 87.
+Given the array:
+[[1, 2],
+ [3, 4],
+ [5, 6]]
+
+a) Calculate the product of all elements  
+b) Find the product along columns using axis=0  
+c) Explain the difference between total product and axis-based product  
+
+---
+
+## 88.
+Create a NumPy array:
+[2, 4, 6, 8]
+
+a) Compute the cumulative sum using `np.cumsum()`  
+b) Compute the cumulative product using `np.cumprod()`  
+c) Explain how cumulative operations differ from normal aggregation  
+
+---
+
+## 89.
+Given the array:
+[15, 3, 22, 7, 10]
+
+a) Find the minimum and maximum values  
+b) Find the index of the minimum value using `np.argmin()`  
+c) Find the index of the maximum value using `np.argmax()`  
+d) Explain what these indices represent  
+
+---
+
+## 90.
+Given a 2D array:
+[[5, 9, 2],
+ [7, 1, 6]]
+
+a) Find the minimum value along axis=0  
+b) Find the maximum value along axis=1  
+c) Apply `np.argmax()` and explain why it returns a single index  
+d) Show how the array is flattened during argmax computation  
