@@ -1007,3 +1007,62 @@ F = (C * 9/5) + 32
 ---
 
 
+## 81.
+Create a NumPy array:
+[10, 20, 30, 40, 50]
+
+- Calculate the **mean** using `np.mean()`  
+- Create a 2D array and calculate mean **along axis=0**  
+- Print both results  
+
+---
+
+## 82.
+Create two arrays:
+[3, 7, 2, 9, 5]  
+[1, 2, 3, 4]
+
+- Calculate the **median** for both arrays  
+- Explain the difference between odd and even length datasets  
+
+---
+
+## 83.
+Create a NumPy array:
+[1, 2, 2, 3, 3, 3, 4]
+
+- Find the **mode** using `np.unique()` and `np.argmax()`  
+- Print the most frequent value  
+
+---
+
+## 84.
+Create a NumPy array:
+[10, 12, 14, 16, 18]
+
+- Calculate:
+  - Standard deviation using `np.std()`  
+  - Variance using `np.var()`  
+- Print both results  
+- Explain the relationship between variance and standard deviation  
+
+---
+
+## 85.
+Create a NumPy array:
+[10, 20, 30, 40, 50]
+
+- Calculate:
+  - Minimum and maximum values  
+  - 25th, 50th, and 75th percentiles  
+  - Quantiles (0.25, 0.5, 0.75)  
+
+Then:
+- Create two arrays:
+  x = [1,2,3,4,5]  
+  y = [2,4,6,8,10]  
+
+- Compute **correlation** using `np.corrcoef()`  
+- Print the result  
+
+---
