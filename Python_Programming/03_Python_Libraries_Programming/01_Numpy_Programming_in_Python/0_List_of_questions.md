@@ -1118,3 +1118,57 @@ a) Find the minimum value along axis=0
 b) Find the maximum value along axis=1  
 c) Apply `np.argmax()` and explain why it returns a single index  
 d) Show how the array is flattened during argmax computation  
+
+
+## 91.
+Create a NumPy array:
+[1, 2, 3, 4, 5, 6]
+
+a) Reshape it into a 2×3 matrix  
+b) Reshape it into a 3×2 matrix using `-1` for automatic dimension calculation  
+c) Explain why total elements must remain constant during reshaping  
+
+---
+
+## 92.
+Given the array:
+[[1, 2, 3],
+ [4, 5, 6]]
+
+a) Flatten the array using `flatten()`  
+b) Modify the first element of the flattened array and check if the original array changes  
+c) Repeat using `ravel()` and observe the difference  
+d) Explain the key difference between `flatten()` and `ravel()`  
+
+---
+
+## 93.
+Create a 2D array:
+[[10, 20, 30],
+ [40, 50, 60]]
+
+a) Transpose the array using `.T`  
+b) Write the original and transposed shapes  
+c) Explain how rows and columns are interchanged  
+
+---
+
+## 94.
+Create a 3D array using:
+np.arange(8).reshape(2,2,2)
+
+a) Display the original array shape  
+b) Swap axis 0 and axis 2 using `np.swapaxes()`  
+c) Explain how the data orientation changes after swapping axes  
+
+---
+
+## 95.
+Create a NumPy array:
+[1, 2, 3]
+
+a) Expand its dimensions along axis=0 and axis=1 using `np.expand_dims()`  
+b) Show the resulting shapes in both cases  
+c) Create an array with shape (1,1,3) and use `np.squeeze()`  
+d) Explain how `squeeze()` removes dimensions of size 1  
+
