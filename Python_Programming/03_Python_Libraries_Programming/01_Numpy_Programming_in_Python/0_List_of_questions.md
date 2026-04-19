@@ -843,4 +843,65 @@ Then:
 
 
 
+## 66.
+Create a NumPy array:
+[10, 20, 30]
+
+- Add a scalar value `5` to the array  
+- Perform multiplication with scalar `2`  
+- Print both results  
+
+---
+
+## 67.
+Create two arrays:
+A = [[1,2,3],
+     [4,5,6]]
+
+B = [10,20,30]
+
+- Perform element-wise addition using broadcasting  
+- Print the result  
+- Explain how NumPy expands array `B`  
+
+---
+
+## 68.
+Create two arrays:
+A = [[1,2,3],
+     [4,5,6]]
+
+B = [[10],
+     [20]]
+
+- Perform addition using broadcasting  
+- Print the result  
+- Explain how broadcasting works across columns  
+
+---
+
+## 69.
+Create arrays:
+A = np.ones((3,1))
+B = np.arange(4)
+
+- Add both arrays using broadcasting  
+- Print the result  
+- Print shapes of A, B, and result  
+
+---
+
+## 70.
+Create a dataset:
+data = [[10,20,30],
+        [40,50,60]]
+
+- Create a mean array:
+[25,35,45]
+
+- Subtract mean from data using broadcasting  
+- Print the normalized result  
+- Explain why broadcasting is useful here  
+
+---
 
