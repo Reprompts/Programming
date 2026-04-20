@@ -1283,3 +1283,73 @@ b) Find insertion indices for multiple values [5, 15, 35]
 c) Use `np.where()` to find indices where values are greater than 25  
 d) Use `np.nonzero()` on [0,1,0,2,3,0] and explain the result  
 
+## 106. Explain the concept of pseudo-random number generation in NumPy. Why are random numbers not truly random, and how does setting a seed ensure reproducibility?
+
+## 107. Compare the older NumPy random API (np.random.*) with the modern API using np.random.default_rng(). Why is the new approach recommended, and how do you create a random number generator using it?
+
+## 108. Write examples demonstrating how to generate:
+   - A single random integer
+   - A 1D array of random integers
+   - A 2D array of random floats  
+   using the rng.integers() and rng.random() functions.
+
+## 109. Explain random sampling using rng.choice(). How do you:
+   - Sample multiple elements
+   - Sample without replacement
+   - Apply probability-based sampling  
+   Provide examples for each case.
+
+## 110. Differentiate between permutation and shuffling in NumPy. How do rng.permutation() and rng.shuffle() work, and what is the key difference in how they affect the original array?
+
+
+## 111. Create two matrices A (2×3) and B (3×2). Perform matrix multiplication using both np.matmul() and the @ operator. Verify the resulting shape and explain why the multiplication is valid based on matrix rules.
+
+## 112. Given two vectors A = [2, 3, 4] and B = [5, 6, 7], compute:
+   - Dot product using np.dot()
+   - Inner product using np.inner()
+   - Outer product using np.outer()  
+   Compare the results and explain the differences between these operations.
+
+## 113. Create a 2×2 matrix and:
+   - Calculate its determinant using np.linalg.det()
+   - Find its inverse using np.linalg.inv()  
+   Verify the result by multiplying the matrix with its inverse to check if you obtain the identity matrix.
+
+## 114. Solve the following system of linear equations using np.linalg.solve():
+   3x + 2y = 12  
+   x + 4y = 10  
+   Represent the system in matrix form (Ax = b) and compute the values of x and y.
+
+## 115. For a given matrix:
+   A = [[4, 1],
+        [2, 3]]
+   Compute:
+   - Transpose of the matrix
+   - Eigenvalues and eigenvectors using np.linalg.eig()  
+   Explain what the eigenvalues and eigenvectors represent in the context of linear transformations.
+
+## 116. Create a NumPy array of 10 random integers. Save it to a file using np.save(), then load it back using np.load() and verify that both arrays are identical.
+
+## 117. Create two different NumPy arrays (1D and 2D). Save both arrays into a single file using np.savez(), then load the file and print each array separately using their assigned names.
+
+## 118. Create a 2D NumPy array and save it as a text file using np.savetxt() with integer formatting. Open the file manually (or print its contents) and confirm the format.
+
+## 119. Write a program to load a text file containing numerical data using np.loadtxt() and display its shape and datatype.
+
+## 120. Create a 2D array representing tabular data and save it as a CSV file using np.savetxt() with a comma delimiter. Then load it back using np.loadtxt() and verify the result.
+
+## 121. Generate a random 3×3 array using NumPy. Save it as a CSV file and reload it. Compare the original and loaded arrays and explain any datatype differences.
+
+## 122. Create a dataset (e.g., student marks matrix), save it using np.save(), then load it and compute the mean of each column using NumPy functions.
+
+## 123. Save multiple arrays (e.g., features and labels) into a single .npz file using np.savez(). After loading, extract both arrays and perform a simple operation (like addition or filtering) on them.
+
+## 124. Create a text file with comma-separated values manually (or using NumPy), then write a program to read it using np.loadtxt(delimiter=",") and extract only specific rows or columns.
+
+## 125. Build a small workflow:
+   - Generate a random dataset
+   - Save it in binary format (.npy)
+   - Load it later
+   - Perform an operation (e.g., normalization or sum)  
+   Print results at each step to verify correctness.
+
