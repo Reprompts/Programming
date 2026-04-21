@@ -318,3 +318,78 @@ Use `loc` with a condition to:
 * Select only `"Name"` and `"Department"`
 
 
+# 3 Pandas Data Inspection & Exploration — Practice Dataset & Questions
+
+## Dataset
+
+```python
+import pandas as pd
+import numpy as np
+
+data = {
+    "EmployeeID": [101, 102, 103, 104, 105, 106, 107],
+    "Name": ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace"],
+    "Age": [25, 30, np.nan, 28, 22, 40, 35],
+    "Department": ["HR", "IT", "Finance", "IT", "Marketing", "IT", "HR"],
+    "Salary": [50000, 70000, 80000, None, 45000, 90000, 75000],
+    "JoinDate": pd.to_datetime([
+        "2020-01-15", "2019-03-10", "2018-07-23",
+        "2021-06-01", "2022-09-12", "2017-11-30", "2016-05-20"
+    ])
+}
+
+df = pd.DataFrame(data)
+````
+
+---
+
+## Questions
+
+## 1. Basic Inspection
+
+Write code to:
+
+* Display the first 5 rows
+* Display the last 3 rows
+* Print the shape of the dataset
+
+---
+
+## 2. Structure & Data Types
+
+Write code to:
+
+* Display complete dataset information using `info()`
+* Print data types of all columns
+* Identify how many non-null values exist in each column
+
+---
+
+## 3. Summary Statistics & Distribution
+
+Write code to:
+
+* Generate summary statistics for all numeric columns
+* Calculate mean, median, and standard deviation of `"Salary"`
+* Plot a histogram of `"Salary"`
+
+---
+
+## 4. Categorical Analysis
+
+Write code to:
+
+* Count occurrences of each `"Department"` using `value_counts()`
+* Find number of unique departments
+* List all unique department names
+
+---
+
+## 5. Missing Data Analysis
+
+Write code to:
+
+* Check for missing values in the dataset
+* Count missing values in each column
+* Identify which columns contain any missing data
+
