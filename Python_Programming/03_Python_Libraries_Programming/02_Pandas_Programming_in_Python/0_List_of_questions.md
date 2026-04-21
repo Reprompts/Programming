@@ -1,6 +1,6 @@
 # Practical Pandas Library Questions 
 
-# Pandas Core Data Structures — Practical Coding Questions
+# 1. Pandas Core Data Structures — Practical Coding Questions
 
 ## 1. Creating a Series
 Create a Pandas Series from the following list:
@@ -157,4 +157,164 @@ Perform the following:
 * Reset the index back to default
 * Print first 2 rows using `head()`
 * Display summary using `info()`
+
+
+# 2. Pandas Data Selection & Indexing — Practical Coding Questions
+
+## Dataset Setup (Use for all questions)
+```python
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie", "David", "Eva"],
+    "Age": [25, 30, 35, 28, 22],
+    "Department": ["HR", "IT", "Finance", "IT", "Marketing"],
+    "Salary": [50000, 70000, 80000, 65000, 45000]
+}
+
+df = pd.DataFrame(data)
+````
+
+---
+
+## 1. Single Column Selection
+
+Write code to select the `"Name"` column using:
+
+* Bracket notation
+* Attribute notation
+
+---
+
+## 2. Multiple Column Selection
+
+Select `"Name"` and `"Salary"` columns and display them as a new DataFrame.
+
+---
+
+## 3. Selecting a Single Row (loc)
+
+Use `loc` to select the row with index `2`.
+
+---
+
+## 4. Selecting a Single Value
+
+Use `loc` to extract the `"Department"` of the employee at index `3`.
+
+---
+
+## 5. Selecting Multiple Rows
+
+Use `loc` to select rows with index `1` and `3`.
+
+---
+
+## 6. Row Slicing using loc
+
+Use `loc` to select rows from index `1` to `3` (inclusive).
+
+---
+
+## 7. Subset of Rows and Columns
+
+Using `loc`, select rows `1` to `3` and only `"Name"` and `"Salary"` columns.
+
+---
+
+## 8. Position-Based Row Selection
+
+Use `iloc` to select the third row.
+
+---
+
+## 9. Position-Based Value Selection
+
+Use `iloc` to extract the value at row position `2` and column position `1`.
+
+---
+
+## 10. iloc Slicing
+
+Use `iloc` to:
+
+* Select rows from position `1` to `3`
+* Select first two columns for these rows
+
+---
+
+## 11. Boolean Indexing
+
+Write code to filter all employees whose age is greater than 30.
+
+---
+
+## 12. Conditional Filtering (Single Condition)
+
+Filter employees whose salary is greater than 60,000.
+
+---
+
+## 13. Conditional Filtering (Multiple Conditions)
+
+Filter employees who:
+
+* Work in `"IT"` department
+* Have salary greater than 60,000
+
+---
+
+## 14. Combine Filtering + Column Selection
+
+From the filtered IT employees (salary > 60,000), select only `"Name"` and `"Salary"` columns.
+
+---
+
+## 15. Query Method
+
+Rewrite the following filter using `query()`:
+
+* Age greater than 25
+* Department is `"IT"`
+
+---
+
+## 16. Query with Variable
+
+Create a variable:
+
+```python
+min_salary = 60000
+```
+
+Use `query()` to filter employees with salary greater than `min_salary`.
+
+---
+
+## 17. Index Slicing
+
+Use slicing to select rows from index `1` to `3` using standard slicing (`df[]`).
+
+---
+
+## 18. Custom Index + Slicing
+
+* Set `"Name"` column as index
+* Use `loc` to slice from `"Alice"` to `"Charlie"`
+
+---
+
+## 19. Boolean Mask Creation
+
+Create a boolean mask for employees whose department is `"IT"`, then use it to filter the DataFrame.
+
+---
+
+## 20. Mixed loc Filtering
+
+Use `loc` with a condition to:
+
+* Filter employees with Age > 25
+* Select only `"Name"` and `"Department"`
+
 
