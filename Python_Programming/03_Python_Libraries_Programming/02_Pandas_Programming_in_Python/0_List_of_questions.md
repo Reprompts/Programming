@@ -393,3 +393,90 @@ Write code to:
 * Count missing values in each column
 * Identify which columns contain any missing data
 
+
+# 4 Pandas Data Types & Conversion — Practical Coding Questions
+
+## Dataset
+
+```python
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie", "David"],
+    "Age": ["25", "30", "35", "unknown"],
+    "Salary": ["50000", "60000.5", "75000", "90000"],
+    "JoinDate": ["2022-01-10", "2021-06-15", "invalid_date", "2020-09-20"],
+    "Department": ["HR", "IT", "Finance", "IT"]
+}
+
+df = pd.DataFrame(data)
+````
+
+---
+
+## 1. Inspecting Data Types
+
+Write code to:
+
+* Display the data types of all columns using `dtypes`
+* Identify which columns are stored as `object`
+* Print memory usage of the dataset using `memory_usage()`
+
+---
+
+## 2. Numeric Conversion & Error Handling
+
+Convert `"Age"` and `"Salary"` columns to numeric types.
+
+Requirements:
+
+* Use `pd.to_numeric()`
+* Handle invalid values using `errors="coerce"`
+* Print the DataFrame after conversion
+* Check how many `NaN` values appear after conversion
+
+---
+
+## 3. Datetime Conversion
+
+Convert the `"JoinDate"` column into datetime format.
+
+Requirements:
+
+* Use `pd.to_datetime()`
+* Handle invalid dates using `errors="coerce"`
+* Print updated data types
+* Extract:
+
+  * Join year
+  * Join month
+* Find the difference between earliest and latest join date
+
+---
+
+## 4. String & Category Conversion
+
+Perform the following conversions:
+
+* Convert `"Name"` column to Pandas `"string"` dtype
+* Convert `"Department"` column to `"category"` dtype
+* Print available categories
+* Rename category `"HR"` to `"Human Resources"`
+
+---
+
+## 5. Complete Data Cleaning Workflow
+
+Using the dataset above, perform a full data type cleaning process:
+
+Tasks:
+
+* Convert `"Age"` to numeric
+* Convert `"Salary"` to numeric
+* Convert `"JoinDate"` to datetime
+* Convert `"Department"` to category
+* Print final `dtypes`
+* Print memory usage before and after conversion
+* Display cleaned DataFrame
+
+
